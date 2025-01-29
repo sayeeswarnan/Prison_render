@@ -1,11 +1,10 @@
 import streamlit as st
-import numpy as np
 from ultralytics import YOLO
 from PIL import Image, ImageDraw
 import imageio.v3 as iio
-import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import smtplib
 
 # Load YOLO model
 @st.cache_resource
